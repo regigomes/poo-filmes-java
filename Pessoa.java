@@ -7,10 +7,7 @@ public abstract class Pessoa { // Classe abstrata que não pode ser instanciada 
     // Atributos comuns a todas as pessoas
     /** Nome completo da pessoa */
     private String nome;
-    
-    /** Data de nascimento da pessoa no formato dd/mm/aaaa */
-    private String dataNascimento;
-gi 
+
     /**
      * Construtor que inicializa uma nova pessoa.
      * @param nome Nome completo da pessoa
@@ -19,7 +16,6 @@ gi
     public Pessoa(String nome, String dataNascimento) { // Construtor que recebe nome e data de nascimento
         // Inicializa os atributos da pessoa
         this.nome = nome;
-        this.dataNascimento = dataNascimento;
     }
 
     /**
@@ -35,8 +31,4 @@ gi
      * Retorna a data de nascimento da pessoa.
      * @return String contendo a data no formato dd/mm/aaaa
      */
-    public String getDataNascimento() { // Método para obter a data de nascimento
-        // Retorna a data de nascimento no formato dd/mm/aaaa
-        return dataNascimento;
-    }
 }
