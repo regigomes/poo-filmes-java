@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1328cb4-a875-4106-8c00-1427166238a0" name="Changes" comment="Adiciona métodos utilitários para listar itens e ler entrada do usuário">
+    <list default="true" id="9d68a05d-f1e7-4d20-bfc6-7682dafc0851" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pessoa.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,33 +15,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "epmorales"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;epmorales&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/regigomes/poo-filmes-java.git",
-    "accountId": "f2767d98-6164-4f82-a755-c0b190e634f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/regigomes/poo-filmes-java.git&quot;,
+    &quot;accountId&quot;: &quot;f2767d98-6164-4f82-a755-c0b190e634f3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="31AU12Hp16ObBFtxMY1WENqGOl7" />
+  <component name="ProjectId" id="31CEWwAIVM9kyTWe9RSfGZvywuA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +49,6 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,59 +62,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e1328cb4-a875-4106-8c00-1427166238a0" name="Changes" comment="" />
-      <created>1754966154803</created>
+      <changelist id="9d68a05d-f1e7-4d20-bfc6-7682dafc0851" name="Changes" comment="" />
+      <created>1755019689894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1754966154803</updated>
-      <workItem from="1754966156667" duration="51000" />
-      <workItem from="1754966210076" duration="8469000" />
+      <updated>1755019689894</updated>
+      <workItem from="1755019691163" duration="61000" />
+      <workItem from="1755019754785" duration="27000" />
+      <workItem from="1755019818561" duration="324000" />
     </task>
-    <task id="LOCAL-00001" summary="Classe responsável por gerenciar um catálogo de filmes, atores e diretores.&#10;Listas criadas para filmes, atores e diretores.">
-      <option name="closed" value="true" />
-      <created>1754968923012</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1754968923012</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Método para solicitar e validar a escolha de um índice em uma lista, com opção de cancelar.">
-      <option name="closed" value="true" />
-      <created>1754971072910</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1754971072910</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Adiciona métodos utilitários para listar itens e ler entrada do usuário">
-      <option name="closed" value="true" />
-      <created>1754972159080</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1754972159080</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classe responsável por gerenciar um catálogo de filmes, atores e diretores.&#10;Listas criadas para filmes, atores e diretores." />
-    <MESSAGE value="Método para solicitar e validar a escolha de um índice em uma lista, com opção de cancelar." />
-    <MESSAGE value="Adiciona métodos utilitários para listar itens e ler entrada do usuário" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona métodos utilitários para listar itens e ler entrada do usuário" />
   </component>
 </project>

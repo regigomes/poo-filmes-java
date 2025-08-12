@@ -92,6 +92,16 @@ public class Catalogo {
         System.out.println("Filme atualizado.");
     }
 
+    public void removerFilme() {
+        int i = pedirIndice(filmes, "filme", false);
+        if (i == -1) return;
+
+        filmes.remove(i);
+        System.out.println("Filme removido.");
+    }
+
+
+
 }
 
 
