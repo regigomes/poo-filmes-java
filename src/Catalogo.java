@@ -42,6 +42,56 @@ public class Catalogo {
         System.out.print(prompt);
         return sc.nextLine().trim();
     }
+
+    public void cadastrarFilme() {
+        String titulo = lerTexto("Título: ");
+        String dataLancamento = lerTexto("Data de lançamento: ");
+        double orcamento = Double.parseDouble(lerTexto("Orçamento: R$ "));
+        String descricao = lerTexto("Descrição: ");
+        String nomeDiretor = lerTexto("Nome do diretor: ");
+
+        Diretor diretor = buscarOuCriarDiretor(nomeDiretor);
+
+        Filme filme = new Filme(titulo, dataLancamento, orcamento, descricao);
+        filme.setDiretor(diretor);
+        filmes.add(filme);
+        System.out.println("Filme cadastrado.");
+    }
+
+    public void listarFilmes() {
+        if (filmes.isEmpty()) {
+            System.out.println("Nenhum filme cadastrado.");
+            return;
+        }
+        listar(filmes, "filme");
+    }
+
+    public void editarFilme() {
+        int i = pedirIndice(filmes, "filme", false);
+        if (i == -1) return;
+
+        Filme f = filmes.get(i);
+
+        String t = lerTexto("Novo título (enter para manter '" + f.getTitulo() + "'): ");
+        if (!t.isEmpty()) f.setTitulo(t);
+
+        String dl = lerTexto("Nova data de lançamento (enter para manter '" + f.getDataLancamento() + "'): ");
+        if (!dl.isEmpty()) f.setDataLancamento(dl);
+
+        String oStr = lerTexto("Novo orçamento (enter para manter '" + f.getOrcamento() + "'): ");
+        if (!oStr.isEmpty()) f.setOrcamento(Double.parseDouble(oStr));
+
+        String desc = lerTexto("Nova descrição (enter para manter): ");
+        if (!desc.isEmpty()) f.setDescricao(desc);
+
+        String dNome = lerTexto("Novo diretor (enter para manter '" + (f.getDiretor() != null ? f.getDiretor().getNome() : "Nenhum") + "'): ");
+        if (!dNome.isEmpty()) {
+            Diretor d = buscarOuCriarDiretor(dNome);
+            f.setDiretor(d);
+        }
+        System.out.println("Filme atualizado.");
+    }
+
 }
 
 
