@@ -33,7 +33,7 @@ O código está organizado da seguinte forma:
 
 ## 🎬 Como Usar
 
-1.  Clone este repositório para a sua máquina.
+1.  Clone este repositório para a sua máquina: https://github.com/regigomes/poo-filmes-java.git
 2.  Abra o projeto na sua IDE favorita (como o VS Code, Eclipse ou IntelliJ).
 3.  Execute a classe `CatalogoDeFilmes.java`.
 4.  Siga as instruções no console para cadastrar, associar e pesquisar filmes.
