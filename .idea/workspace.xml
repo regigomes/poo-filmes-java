@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d68a05d-f1e7-4d20-bfc6-7682dafc0851" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" afterDir="false" />
+    <list default="true" id="d6b97bc9-c110-41c9-a803-35ee6e89bb2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,22 +17,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;epmorales&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "epmorales"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/regigomes/poo-filmes-java.git&quot;,
-    &quot;accountId&quot;: &quot;f2767d98-6164-4f82-a755-c0b190e634f3&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/regigomes/poo-filmes-java.git",
+    "accountId": "f2767d98-6164-4f82-a755-c0b190e634f3"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="31CEWwAIVM9kyTWe9RSfGZvywuA" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="31CG53yeIdpo0EWQKYlTTHm2Cxy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,10 +43,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,14 +57,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d68a05d-f1e7-4d20-bfc6-7682dafc0851" name="Changes" comment="" />
-      <created>1755019689894</created>
+      <changelist id="d6b97bc9-c110-41c9-a803-35ee6e89bb2f" name="Changes" comment="" />
+      <created>1755020455003</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755019689894</updated>
-      <workItem from="1755019691163" duration="61000" />
-      <workItem from="1755019754785" duration="27000" />
-      <workItem from="1755019818561" duration="324000" />
+      <updated>1755020455003</updated>
+      <workItem from="1755020456310" duration="38000" />
     </task>
     <servers />
   </component>
