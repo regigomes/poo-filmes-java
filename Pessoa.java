@@ -26,9 +26,4 @@ public abstract class Pessoa { // Classe abstrata que não pode ser instanciada 
         // Retorna o nome completo da pessoa
         return nome;
     }
-
-    /**
-     * Retorna a data de nascimento da pessoa.
-     * @return String contendo a data no formato dd/mm/aaaa
-     */
 }
