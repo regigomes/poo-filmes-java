@@ -1,52 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6b97bc9-c110-41c9-a803-35ee6e89bb2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Projeto_CatalogoFilmes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="Criação do método buscarFilme() por título">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogoFilmes/src/Ator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogoFilmes/src/Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogoFilmes/src/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogoFilmes/src/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogoFilmes/src/Pessoa.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "epmorales"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;epmorales&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/regigomes/poo-filmes-java.git",
-    "accountId": "f2767d98-6164-4f82-a755-c0b190e634f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/regigomes/poo-filmes-java.git&quot;,
+    &quot;accountId&quot;: &quot;f2767d98-6164-4f82-a755-c0b190e634f3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="31CG53yeIdpo0EWQKYlTTHm2Cxy" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31CG9mm5gbedsY9sJGwKuhfITNH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ericm/Documents/Ada_Tech/Projeto_CatalogoFilmes/CatalogoFilmes/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CatalogoFilmes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,16 +89,62 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6b97bc9-c110-41c9-a803-35ee6e89bb2f" name="Changes" comment="" />
-      <created>1755020455003</created>
+      <changelist id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="" />
+      <created>1755020495128</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755020455003</updated>
-      <workItem from="1755020456310" duration="38000" />
+      <updated>1755020495128</updated>
+      <workItem from="1755020496279" duration="978000" />
+      <workItem from="1755035449077" duration="321000" />
+      <workItem from="1755035803883" duration="352000" />
     </task>
+    <task id="LOCAL-00001" summary="Organização dos arquivos.">
+      <option name="closed" value="true" />
+      <created>1755020757924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755020757924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criação do método buscarFilme() por título">
+      <option name="closed" value="true" />
+      <created>1755021303176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755021303176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Organização dos arquivos." />
+    <MESSAGE value="Criação do método buscarFilme() por título" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do método buscarFilme() por título" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
