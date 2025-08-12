@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 
 public class Catalogo {
@@ -101,7 +100,20 @@ public class Catalogo {
         System.out.println("Filme removido.");
     }
 
-
+    public void buscarFilme() {
+        String titulo = lerTexto("Título para buscar: ");
+        List<Filme> encontrados = new ArrayList<>();
+        for (Filme f : filmes) {
+            if (f.getTitulo().toLowerCase().contains(titulo.toLowerCase())) {
+                encontrados.add(f);
+            }
+        }
+        if (encontrados.isEmpty()) {
+            System.out.println("Nenhum filme encontrado com esse título.");
+        } else {
+            listar(encontrados, "filme encontrado");
+        }
+    }
 
 }
 
