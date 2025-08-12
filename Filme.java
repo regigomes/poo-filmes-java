@@ -3,13 +3,17 @@ import java.util.List;
 
 public class Filme {
     private String titulo;
-    private int ano;
+    private String dataLancamento;
+    private double orcamento;
+    private String descricao;
     private Diretor diretor;
     private List<Ator> atores;
 
-    public Filme(String titulo, int ano) {
+    public Filme(String titulo, String dataLancamento, double orcamento, String descricao) {
         this.titulo = titulo;
-        this.ano = ano;
+        this.dataLancamento = dataLancamento;
+        this.orcamento = orcamento;
+        this.descricao = descricao;
         this.atores = new ArrayList<>();
     }
 
@@ -21,12 +25,28 @@ public class Filme {
         this.titulo = titulo;
     }
 
-    public int getAno() {
-        return ano;
+    public String getDataLancamento() {
+        return dataLancamento;
     }
 
-    public void setAno(int ano) {
-        this.ano = ano;
+    public void setDataLancamento(String dataLancamento) {
+        this.dataLancamento = dataLancamento;
+    }
+
+    public double getOrcamento() {
+        return orcamento;
+    }
+
+    public void setOrcamento(double orcamento) {
+        this.orcamento = orcamento;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public Diretor getDiretor() {
@@ -41,7 +61,13 @@ public class Filme {
         return atores;
     }
 
+    @Override
     public String toString() {
-        return titulo + " (" + ano + ") - Diretor: " + (diretor != null ? diretor.getNome() : "Nenhum") + ", Atores: " + atores ;
+        return String.format(
+                "%s (%s) - Diretor: %s\nOrçamento: R$ %.2f\nDescrição: %s\nAtores: %s",
+                titulo, dataLancamento,
+                diretor != null ? diretor.getNome() : "Nenhum",
+                orcamento, descricao, atores
+        );
     }
 }
