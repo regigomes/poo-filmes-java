@@ -231,8 +231,18 @@ public class Catalogo {
         System.out.println("Diretor associado.");
     }
 
-
-
+    private Diretor buscarOuCriarDiretor(String nome) {
+        for (Diretor d : diretores) {
+            if (d.getNome().equalsIgnoreCase(nome)) {
+                return d;
+            }
+        }
+        Diretor novo = new Diretor(nome);
+        diretores.add(novo);
+        System.out.println("Diretor cadastrado automaticamente.");
+        return novo;
+    }
 }
+
 
 
