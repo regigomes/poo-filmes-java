@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="Adição de métodos para gerenciar diretores e associá-los a filmes.">
-      <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatalogoFilmes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogoFilmes/src/Ator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Ator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogoFilmes/src/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogoFilmes/src/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogoFilmes/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CatalogoFilmes/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/regigomes/poo-filmes-java.git&quot;,
-    &quot;accountId&quot;: &quot;f2767d98-6164-4f82-a755-c0b190e634f3&quot;
+    &quot;accountId&quot;: &quot;7e5736be-ee34-4bf4-94d8-b03b7b963ab9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -42,22 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ericm/Documents/Ada_Tech/Projeto_CatalogoFilmes/CatalogoFilmes/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/Programacion/ADA/poo-filmes-java/poo-filmes-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ericm/Documents/Ada_Tech/Projeto_CatalogoFilmes/CatalogoFilmes/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -72,14 +89,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="" />
@@ -160,7 +170,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>38</line>
+          <line>62</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

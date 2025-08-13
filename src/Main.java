@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Catalogo catalogo = new Catalogo();
@@ -31,10 +33,32 @@ public class Main {
             System.out.println("\n0 - Sair");
             System.out.println("Digite opcao: ");
 
-            opcao = integer.parseInt(sc.nextLine());
+            opcao = Integer.parseInt(sc.nextLine());
+
+            switch (opcao){
+                case 1 -> catalogo.cadastrarFilme();
+                case 2 -> catalogo.listarFilmes();
+                case 3 -> catalogo.editarFilme();
+                case 4 -> catalogo.removerFilme();
+                case 5 -> catalogo.buscarFilme();
+                case 6 -> catalogo.cadastrarAtor();
+                case 7 -> catalogo.listarAtores();
+                case 8 -> catalogo.editarAtor();
+                case 9 -> catalogo.removerAtor();
+                case 10 -> catalogo.associarAtorFilme();
+                case 11 -> catalogo.cadastrarDiretor();
+                case 12 -> catalogo.listarDiretores();
+                case 13 -> catalogo.editarDiretor();
+                case 14 -> catalogo.removerDiretor();
+                case 15 -> catalogo.associarDiretorFilme();
+                case 0 -> System.out.println("Saindo...");
+                default -> System.out.println("Opcao invalida!");
+
+            }
 
 
-        }
+        }while (opcao != 0);
+
 
     }
 }
