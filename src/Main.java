@@ -53,12 +53,9 @@ public class Main {
                 case 15 -> catalogo.associarDiretorFilme();
                 case 0 -> System.out.println("Saindo...");
                 default -> System.out.println("Opcao invalida!");
-
             }
 
-
         }while (opcao != 0);
-
 
     }
 }

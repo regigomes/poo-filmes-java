@@ -227,7 +227,7 @@ public class Catalogo {
 
         Filme f =filmes.get(iF);
         Diretor d =diretores.get(iD);
-        f.setDiretor(null);
+        f.setDiretor(d);
         System.out.println("Diretor associado.");
     }
 
