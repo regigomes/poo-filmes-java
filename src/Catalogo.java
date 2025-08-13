@@ -12,7 +12,6 @@ public class Catalogo {
             System.out.println("Nenhum " + tipo + " cadastrado.");
             return -1;
         }
-
         listar(lista, tipo);
         System.out.println("Número do " + tipo + (permitirZero ? " (0 para cancelar)" : "") + ":");
         int i = lerInt(sc.nextLine());
@@ -114,6 +113,66 @@ public class Catalogo {
             listar(encontrados, "filme encontrado");
         }
     }
+
+    public void cadastrarAtor() {
+        String nome = lerTexto("Nome do ator: ");
+        atores.add(new Ator(nome));
+        System.out.println("Ator cadastrado.");
+    }
+
+    public void listarAtores() {
+        if (atores.isEmpty()) {
+            System.out.println("Nenhum ator cadastrado.");
+            return;
+        }
+        listar(atores, "ator");
+    }
+
+    public void editarAtor() {
+        int i = pedirIndice(atores, "ator", false);
+        if (i == -1) return;
+
+        Ator a = atores.get(i);
+        String nome = lerTexto("Novo nome do ator (enter para manter '" + a.getNome() + "'): ");
+        if (!nome.isEmpty()) {
+            a.setNome(nome);
+            System.out.println("Ator atualizado.");
+        } else {
+            System.out.println("Nome mantido.");
+        }
+    }
+
+    public void removerAtor() {
+        int i = pedirIndice(atores, "ator", false);
+        if (i == -1) return;
+
+        Ator a = atores.get(i);
+        filmes.forEach(f -> f.getAtores().remove(a));
+        atores.remove(i);
+        System.out.println("Ator removido.");
+    }
+
+    public void associarAtorFilme() {
+        if (filmes.isEmpty() || atores.isEmpty()) {
+            System.out.println("Cadastre filmes e atores antes.");
+            return;
+        }
+        int iF = pedirIndice(filmes, "filme", false);
+        if (iF == -1) return;
+        int iA = pedirIndice(atores, "ator", false);
+        if (iA == -1) return;
+
+        Filme f = filmes.get(iF);
+        Ator a = atores.get(iA);
+
+        if (f.getAtores().contains(a)) {
+            System.out.println("Ator já associado.");
+        } else {
+            f.getAtores().add(a);
+            System.out.println("Ator associado.");
+        }
+    }
+
 
 }
 
