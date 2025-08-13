@@ -173,6 +173,65 @@ public class Catalogo {
         }
     }
 
+    public void cadastrarDiretor() {
+        String nome = lerTexto("Nome do diretor: ");
+        diretores.add(new Diretor(nome));
+        System.out.println("Diretor cadastrado.");
+    }
+
+    public void listarDiretores() {
+        if (diretores.isEmpty()) {
+            System.out.println("Nenhum diretor cadastrado.");
+            return;
+        }
+        listar(diretores, "diretor");
+    }
+
+    public void editarDiretor() {
+        int i = pedirIndice(diretores, "diretor", false);
+        if (i == -1) return;
+
+        Diretor d = diretores.get(i);
+        String nome = lerTexto("Novo nome do diretor (enter para manter '" + d.getNome() + "'): ");
+        if (!nome.isEmpty()) {
+            d.setNome(nome);
+            System.out.println("Diretor atualizado.");
+        } else {
+            System.out.println("Nome mantido.");
+        }
+    }
+
+    public void removerDiretor() {
+        int i = pedirIndice(diretores, "diretor", false);
+        if (i == -1) return;
+
+        Diretor d = diretores.get(i);
+        filmes.forEach(f -> {
+            if (f.getDiretor()!= null && f.getDiretor().equals(d)){
+                f.setDiretor(null);
+            }
+        });
+        diretores.remove(i);
+        System.out.println("Diretor removido.");
+    }
+
+    public void associarDiretorFilme() {
+        if (filmes.isEmpty() || diretores.isEmpty()) {
+            System.out.println("Cadastre filmes e diretores antes.");
+            return;
+        }
+        int iF =pedirIndice(filmes, "filme", false);
+        if (iF == -1) return;
+        int iD = pedirIndice(diretores, "diretor", false);
+        if (iD == -1) return;
+
+        Filme f =filmes.get(iF);
+        Diretor d =diretores.get(iD);
+        f.setDiretor(null);
+        System.out.println("Diretor associado.");
+    }
+
+
 
 }
 

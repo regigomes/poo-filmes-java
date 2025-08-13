@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="Criação do método buscarFilme() por título">
+    <list default="true" id="6687f47e-69d3-406f-a02d-eeaffccd3a25" name="Changes" comment="Adição de métodos para gerenciar atores e associá-los a filmes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogo.java" afterDir="false" />
     </list>
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755021303176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adição de métodos para gerenciar atores e associá-los a filmes.">
+      <option name="closed" value="true" />
+      <created>1755046619239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755046619239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Organização dos arquivos." />
     <MESSAGE value="Criação do método buscarFilme() por título" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do método buscarFilme() por título" />
+    <MESSAGE value="Adição de métodos para gerenciar atores e associá-los a filmes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de métodos para gerenciar atores e associá-los a filmes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
