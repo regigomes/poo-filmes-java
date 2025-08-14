@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto de Catálogo de Filmes!
 
-Este projeto foi feito em grupo para o curso de backend em Java. O objetivo é criar um sistema simples para catalogar filmes, inspirado em plataformas como o IMDB.
+Este projeto foi desenvolvido em grupo para o curso de backend em Java. O objetivo é criar um sistema simples para catalogar filmes, inspirado em plataformas como o IMDB.
 
 ## 🚀 Funcionalidades
 
