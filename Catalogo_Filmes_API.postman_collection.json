@@ -1,0 +1,125 @@
+{
+  "info": {
+    "name": "API Catálogo de Filmes",
+    "description": "Coleção de requisições para testar a API REST de filmes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Filmes",
+      "item": [
+        {
+          "name": "Listar todos os filmes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/filmes",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes"]
+            }
+          }
+        },
+        {
+          "name": "Buscar filme por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/filmes/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes", "1"]
+            }
+          }
+        },
+        {
+          "name": "Criar novo filme",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"titulo\": \"Matrix\",\n  \"dataLancamento\": \"1999-03-31\",\n  \"orcamento\": 63000000.00,\n  \"descricao\": \"Um hacker descobre a verdade sobre sua realidade\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/filmes",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes"]
+            }
+          }
+        },
+        {
+          "name": "Atualizar filme completo (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"titulo\": \"Matrix Reloaded\",\n  \"dataLancamento\": \"2003-05-15\",\n  \"orcamento\": 150000000.00,\n  \"descricao\": \"Neo e seus aliados contra as máquinas\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/filmes/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes", "1"]
+            }
+          }
+        },
+        {
+          "name": "Atualizar filme parcialmente (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"orcamento\": 200000000.00\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/filmes/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes", "1"]
+            }
+          }
+        },
+        {
+          "name": "Deletar filme",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/filmes/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["filmes", "1"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
