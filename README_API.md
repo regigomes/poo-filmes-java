@@ -36,7 +36,9 @@ A API implementa um CRUD completo para o cadastro de filmes com os seguintes end
 ### Passos
 
 1. **Clone o repositório ou navegue até a pasta do projeto**
+```bash
 
+```
 2. **Compile o projeto com Maven:**
 ```bash
 mvn clean install
