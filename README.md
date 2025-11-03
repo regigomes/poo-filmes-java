@@ -155,9 +155,28 @@ curl -X DELETE http://localhost:8080/filmes/1
 - **Bean Validation** - Validação de dados
 - **Maven** - Gerenciamento de dependências
 
+#### 🎨 Frontend Web Incluído
+
+Este projeto também inclui um **frontend completo e moderno**! 🌐
+
+- ✅ **Interface responsiva** com HTML, CSS e JavaScript puro
+- ✅ **Design moderno** com gradiente roxo elegante
+- ✅ **CRUD completo** - Adicionar, editar, excluir e listar filmes
+- ✅ **Integração total** com a API REST
+- ✅ **Sem dependências** - Funciona sem frameworks
+- ✅ **Mobile-friendly** - Responsivo para todos os dispositivos
+
+**Acesse o frontend:**
+```
+http://localhost:8080
+```
+
+Após iniciar a aplicação com `mvn spring-boot:run`, abra seu navegador e acesse a URL acima para usar a interface web!
+
 #### 📚 Documentação Adicional
 
 - [README_API.md](README_API.md) - Documentação completa da API
+- [FRONTEND_README.md](FRONTEND_README.md) - Documentação do frontend
 - [INICIO_RAPIDO.md](INICIO_RAPIDO.md) - Guia de início rápido
 - [Catalogo_Filmes_API.postman_collection.json](Catalogo_Filmes_API.postman_collection.json) - Coleção Postman para testes
 
