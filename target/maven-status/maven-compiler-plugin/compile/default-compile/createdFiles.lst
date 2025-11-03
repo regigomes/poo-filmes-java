@@ -3,6 +3,7 @@ com\catalogo\filmes\exception\ResourceNotFoundException.class
 com\catalogo\filmes\model\Diretor.class
 com\catalogo\filmes\repository\AtorRepository.class
 com\catalogo\filmes\repository\DiretorRepository.class
+com\catalogo\filmes\config\CorsConfig.class
 com\catalogo\filmes\model\Filme.class
 com\catalogo\filmes\service\FilmeService.class
 com\catalogo\filmes\controller\FilmeController.class

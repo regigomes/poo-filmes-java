@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 Catálogo de Filmes</h1>
+            <p class="subtitle">Gerencie seu catálogo de filmes</p>
+        </header>
+
+        <!-- Formulário para adicionar/editar filme -->
+        <section class="form-section">
+            <h2>Adicionar Novo Filme</h2>
+            <form id="filmeForm">
+                <input type="hidden" id="filmeId">
+
+                <div class="form-group">
+                    <label for="titulo">Título *</label>
+                    <input type="text" id="titulo" required placeholder="Ex: Matrix">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dataLancamento">Data de Lançamento</label>
+                        <input type="date" id="dataLancamento" placeholder="2023-01-01">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="orcamento">Orçamento (R$) *</label>
+                        <input type="number" id="orcamento" required placeholder="1000000" step="0.01">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea id="descricao" rows="3" placeholder="Descrição do filme..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Adicionar Filme</span>
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="cancelBtn" style="display: none;">
+                        Cancelar
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Lista de filmes -->
+        <section class="filmes-section">
+            <div class="section-header">
+                <h2>Filmes Cadastrados</h2>
+                <button class="btn btn-refresh" id="refreshBtn">
+                    🔄 Atualizar
+                </button>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">
+                Carregando filmes...
+            </div>
+
+            <div id="filmesList" class="filmes-grid">
+                <!-- Filmes serão carregados aqui -->
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <p>📽️ Nenhum filme cadastrado ainda.</p>
+                <p class="small">Adicione seu primeiro filme usando o formulário acima!</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal de Confirmação -->
+    <div id="confirmModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3>Confirmar Exclusão</h3>
+            <p>Tem certeza que deseja excluir este filme?</p>
+            <div class="modal-actions">
+                <button class="btn btn-danger" id="confirmDeleteBtn">Sim, Excluir</button>
+                <button class="btn btn-secondary" id="cancelDeleteBtn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
